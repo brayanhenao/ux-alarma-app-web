@@ -12,7 +12,7 @@ import {useNavigate} from 'react-router-dom';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 
-export default function SignIn() {
+export default function ForgotPassword() {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         email: '',
@@ -83,8 +83,8 @@ export default function SignIn() {
                 src={LandingLogo}
                 alt="Logo"
                 style={{
-                    maxWidth: '80%', // Adjust the max-width as needed
-                    maxHeight: 'auto', // Maintain aspect ratio
+                    maxWidth: '80%',
+                    maxHeight: 'auto',
                 }}
             />
             <Typography>

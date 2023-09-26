@@ -15,7 +15,7 @@ import {useNavigate} from "react-router-dom";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
 
-export default function SignIn() {
+export default function Login() {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         email: "",

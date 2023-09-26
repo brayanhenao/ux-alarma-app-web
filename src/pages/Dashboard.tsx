@@ -39,12 +39,12 @@ function Dashboard() {
             <div className="container">
                 <Grid container sx={{
                     mt: 5,
-
                     ...(showShortText
                         ? {
                             px: 20,
                         }
                         : {
+                            paddingRight: "20rem",
                             display: "flex",
                             justifyContent: "center",
                             alignItems: "center",
