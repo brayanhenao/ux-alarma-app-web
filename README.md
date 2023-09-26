@@ -4,13 +4,15 @@ Este proyecto es la interfaz web de la aplicación AlarmaApp, desarrollada como 
 _*Mejoramiento de la Experiencia de Usuario*_ en la Universidad de los Andes.
 
 ## Tabla de Contenido
- - [Integrantes](#integrantes)
- - [Diseño en Figma](#diseño-en-figma)
- - [Acerca del Desarrollo de la Interfaz](#acerca-del-desarrollo-de-la-interfaz)
- - [Instalación](#instalación)
- - [Ejecución](#ejecución)
- - [Construcción](#construcción)
- - [Consideraciones](#consideraciones)
+
+- [Integrantes](#integrantes)
+- [Diseño en Figma](#diseño-en-figma)
+- [Acerca del Desarrollo de la Interfaz](#acerca-del-desarrollo-de-la-interfaz)
+- [Instalación](#instalación)
+- [Ejecución](#ejecución)
+- [Construcción](#construcción)
+- [Despliegue](#despliegue)
+- [Consideraciones](#consideraciones)
 
 ## Integrantes
 
@@ -64,6 +66,11 @@ pnpm run build
 ```
 
 El proyecto se construirá en la carpeta `dist`.
+
+## Despliegue
+
+El proyecto se despliega en [Vercel](https://vercel.com) automáticamente al hacer un _push_ a la rama `main`. Puedes ver
+el proyecto desplegado en [ux-alarma-app-web.vercel.app](https://ux-alarma-app-web.vercel.app/).
 
 ## Consideraciones
 
