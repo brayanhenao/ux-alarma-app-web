@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+    /* fonts */
+    --m3-label-large: Roboto;
+
+    /* font sizes */
+    --m3-label-large-size: 14px;
+    --m3-title-large-size: 22px;
+    --m3-body-small-size: 12px;
+    --m3-body-large-size: 16px;
+    --m3-display-large-size: 57px;
+
+    /* Colors */
+    --m3-sys-light-primary: #9c4234;
+    --m3-sys-light-inverse-on-surface: #fbeeeb;
+    --m3-sys-light-surface-container: #f8ebe9;
+    --m3-sys-light-outline: #857370;
+    --m3-sys-light-on-surface: #201a19;
+    --m3-state-layers-light-on-surface-opacity-012: rgba(29, 27, 32, 0.12);
+    --m3-sys-light-inverse-surface: #362f2d;
+    --m3-sys-light-on-primary: #fff;
+    --m3-sys-light-on-surface-variant: #534341;
+    --m3-sys-light-surface: #fff8f6;
+    --m3-black: #000;
+    --m3-sys-light-surface-dim: #e4d7d5;
+
+    /* Gaps */
+    --gap-9xs: 4px;
+
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-xs: 12px;
+    --padding-5xs: 8px;
+    --padding-9xs: 4px;
+    --padding-base: 16px;
+    --padding-5xl: 24px;
+
+    /* Border radiuses */
+    --br-81xl: 100px;
+    --br-9xs: 4px;
+    --br-base: 16px;
+
+    /* Effects */
+    --m3-elevation-light-3: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+    --m3-elevation-light-5: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+
