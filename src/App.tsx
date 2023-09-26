@@ -3,6 +3,7 @@ import './App.css'
 import {Route, Routes, useLocation, useNavigationType} from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
     const action = useNavigationType();
@@ -28,6 +29,10 @@ function App() {
                 title = "Dashboard";
                 metaDescription = "";
                 break;
+            case "/forgot-password":
+                title = "Recuperar contraseña";
+                metaDescription = "";
+                break;
         }
 
         if (title) {
@@ -48,6 +53,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Login/>}/>
             <Route path="/dashboard" element={<Dashboard/>}/>
+            <Route path='/forgot-password' element={<ForgotPassword/>}/>
         </Routes>
     )
 }

@@ -36,7 +36,7 @@ export default function SignIn() {
         } else {
             setOpenSnackbar(true);
             setSnackbarMessage('Correo o contraseña incorrectos');
-            return; // Prevent further execution
+            return;
         }
     };
 
