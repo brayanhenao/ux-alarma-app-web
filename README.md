@@ -68,4 +68,4 @@ El proyecto se construirá en la carpeta `dist`.
 ## Consideraciones
 
 Dado que es un proyecto de prototipado, no hemos implementado ninguna lógica de negocio. Para acceder al dashboard,
-utiliza el correo admin@admin.com y la contraseña admin. También puedes acceder mediante la URL /dashboard.
+utiliza el correo `admin@admin.com` y la contraseña `admin`. También puedes acceder mediante la URL `/dashboard`.

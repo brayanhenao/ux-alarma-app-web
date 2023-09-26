@@ -62,11 +62,10 @@ function Dashboard() {
                                 ? {
                                     cursor: "pointer",
                                     transform: "translate(0, 0)",
-                                    transition: "all 0.3s ease",
                                 }
                                 : {
-                                    transform: "translate(22%, 25%)",
-                                    transition: "all 0.5s ease",
+                                    transform: "translate(2%, 2%)",
+                                    transition: "all 0.5s ease-in-out",
                                 }),
                         }}
                     >
@@ -79,7 +78,7 @@ function Dashboard() {
                                     }}
                                 >
                                     <Typography variant="h1" component="div" gutterBottom>
-                                        200 Mil
+                                        {dataExpanded.description}
                                     </Typography>
                                 </Box>
                                 <Box
@@ -89,7 +88,7 @@ function Dashboard() {
                                     }}
                                 >
                                     <Typography variant="h5" component="div" gutterBottom>
-                                        Total alarmas registradas
+                                        {dataExpanded.header}
                                     </Typography>
                                 </Box>
                             </Container>
